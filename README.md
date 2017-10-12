@@ -1,7 +1,7 @@
 # linux-command-collection
 
 ## Install pyenv python 3.6.2 & 2.7.13 on deepin linux
-```bash 
+```bash
 $ sudo apt install libbz2-dev libreadline-dev libssl-dev libsqlite3-dev
 $ pyenv install 3.6.2
 ```
@@ -20,4 +20,15 @@ $ curl -o install_nodejs_8x.sh https://deb.nodesource.com/setup_8.x
 
 $ cat install_nodejs_8x.sh | sudo -E bash -
 $ sudo apt install nodejs
+```
+
+## Install solr together with Java
+```bash
+$ sudo apt install default-jre
+$ curl -LO https://archive.apache.org/dist/lucene/solr/6.0.0/solr-6.0.0.tgz
+$ tar -C solr -xf solr-6.0.0.tgz --strip-components=1
+
+# Create a new core
+$ ./bin/solr start
+$ ./bin/solr create -c tester -n basic_config
 ```

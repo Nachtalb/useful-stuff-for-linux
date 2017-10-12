@@ -32,3 +32,9 @@ $ tar -C solr -xf solr-6.0.0.tgz --strip-components=1
 $ ./bin/solr start
 $ ./bin/solr create -c tester -n basic_config
 ```
+
+## Set vim to default editor
+```bash
+$ sudo update-alternatives --config editor
+# Enter ID of vim.basic and press enter
+```

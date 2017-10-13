@@ -38,3 +38,8 @@ $ ./bin/solr create -c tester -n basic_config
 $ sudo update-alternatives --config editor
 # Enter ID of vim.basic and press enter
 ```
+
+## Add file to global gitignore
+```bash
+$ git config --global core.excludesfile ~/.gitignore_global
+```

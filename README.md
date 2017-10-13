@@ -1,5 +1,16 @@
 # linux-command-collection
 
+<!-- toc -->
+
+- [Install pyenv python 3.6.2 & 2.7.13 on deepin linux](#install-pyenv-python-362--2713-on-deepin-linux)
+- [Make sure your .ssh private key file has chmod 400](#make-sure-your-ssh-private-key-file-has-chmod-400)
+- [Install nodejs > 6.x on deepin linux](#install-nodejs--6x-on-deepin-linux)
+- [Install solr together with Java](#install-solr-together-with-java)
+- [Set vim to default editor](#set-vim-to-default-editor)
+- [Add file to global gitignore](#add-file-to-global-gitignore)
+
+<!-- tocstop -->
+
 ## Install pyenv python 3.6.2 & 2.7.13 on deepin linux
 ```bash
 $ sudo apt install libbz2-dev libreadline-dev libssl-dev libsqlite3-dev
